@@ -1,0 +1,42 @@
+
+html{
+    height: 100%;
+    width:100%
+}
+body {
+    display: block;
+    height: 100%;
+}
+.Main-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+}
+.HomePageBtn {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#AllPostBtn,#CreatePostBtn{
+    margin: 2px;
+    background-color: orange;
+    color: black;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+}
+
+body{
+    background: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    overflow:hidden;
+    display: block;
+}
