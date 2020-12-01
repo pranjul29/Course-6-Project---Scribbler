@@ -40,3 +40,22 @@ body{
     overflow:hidden;
     display: block;
 }
+
+.ModalHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#SignInPageToggle{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#SignUpModal{
+    width: 80%;
+}
+
