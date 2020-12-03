@@ -55,7 +55,11 @@ body{
     text-align: center;
 }
 
-#SignUpModal{
-    width: 80%;
+#PostContents{
+    height:400px;
+}
+
+#ModalCreatePostBtn{
+    width: 175px;
 }
 
