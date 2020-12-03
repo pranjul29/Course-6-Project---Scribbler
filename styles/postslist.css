@@ -1,0 +1,58 @@
+body{
+    background-color: #ffeedd;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.card-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: grey;
+    font-weight: bold;
+}
+
+.card-header{
+    background-color: white;
+    color: dimgrey;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 55px;
+    padding-top: 70px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card-header:first-child{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card-body{
+    background-color: lightgrey;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.PostListGrid{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: center;
+
+}
+
+.ModalHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
