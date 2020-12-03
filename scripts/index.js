@@ -1,4 +1,4 @@
 
 function NavigateToAllPosts(){
-    window.location.href = "html/postslist.html";
+    window.location.href = "html/bloglist.html";
 }
