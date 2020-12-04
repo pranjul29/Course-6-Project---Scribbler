@@ -51,7 +51,7 @@ function displayAllPosts(){
                         '</span>' +
                     '</div>' +
                     '<p class="card-text">' + value.postContent + '</p>' +
-                    '<span class="PostMore">' +
+                    '<span class="PostMore" onclick="navigateToPost()">' +
                          '<i class="fa fa-ellipsis-h float-right"></i>' +
                     '</span>' +
                 '</div>' +
@@ -115,6 +115,10 @@ function DeletePost(index,id) {
     posts.splice(index,1);
     displayAllPosts()
    // trashFunctions(posts.length)
+}
+
+function navigateToPost() {
+    location.href = "../html/post.html";
 }
 
 

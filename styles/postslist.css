@@ -6,7 +6,7 @@ body{
 .card{
     display: flex;
     flex-direction: row;
-    height: 200px;
+    /*height: 200px;*/
     border-radius: 20px;
     width: 90%;
 }
