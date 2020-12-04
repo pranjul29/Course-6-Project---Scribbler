@@ -1,0 +1,34 @@
+#BlogHeading{
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 75px;
+}
+
+#BlogAuthor{
+    margin-left: 75px;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+}
+
+.PostAuthor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.EditSaveButton{
+    margin-right: 75px;
+    min-width: 100px;
+    max-width: 150px;
+    background-color: deeppink;
+    color: white;
+    text-align: center;
+    max-height: 50px;
+}
+
+
+
+.PostContent{
+    margin: 10px 75px 10px 75px;
+    text-align: justify;
+}
