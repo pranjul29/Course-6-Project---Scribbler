@@ -33,3 +33,18 @@ function SaveToEditToggle(){
     BlogHeading.style.border = "none";
     BlogBody.style.border = "none";
 }
+
+var numberOfClicks=0;
+function LikeClicked(){
+    console.log(numberOfClicks)
+    document.getElementById("likeBlog").innerHTML = '<i style="font-size: 14px;font-weight: bolder;" class="fa fa-thumbs-up" aria-hidden="true"></i> Liked';
+    numberOfClicks += 1;
+    if(numberOfClicks!=0){
+        if (numberOfClicks==1){
+            document.getElementById('likeCount').innerHTML = numberOfClicks + " person likes this!";
+        }
+        else {
+            document.getElementById('likeCount').innerHTML = numberOfClicks + " people like this!";
+        }
+    }
+}

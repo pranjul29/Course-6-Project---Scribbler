@@ -1,11 +1,11 @@
 #BlogHeading{
     text-align: center;
     font-weight: bold;
-    margin: 0px 75px;
+    /*margin: 0px 75px;*/
 }
 
 #BlogAuthor{
-    margin-left: 75px;
+    /*margin-left: 75px;*/
     font-family: 'Niconne', cursive;
     font-size: 30px;
 }
@@ -17,7 +17,7 @@
 }
 
 .EditSaveButton{
-    margin-right: 75px;
+    /*margin-right: 75px;*/
     min-width: 100px;
     max-width: 150px;
     background-color: deeppink;
@@ -29,6 +29,31 @@
 
 
 .PostContent{
-    margin: 10px 75px 10px 75px;
+    /*margin: 10px 75px 10px 75px;*/
     text-align: justify;
+}
+
+.ModalHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.PostBlogLayout{
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+#likeBlog{
+    background-color: deeppink;
+    min-width: 100px;
+    max-width: 150px;
+    max-height: 50px;
+    color: white;
+}
+
+#likeCount{
+    margin-top: 10px;
 }
