@@ -1,11 +1,9 @@
 #BlogHeading{
     text-align: center;
     font-weight: bold;
-    /*margin: 0px 75px;*/
 }
 
 #BlogAuthor{
-    /*margin-left: 75px;*/
     font-family: 'Niconne', cursive;
     font-size: 30px;
 }
@@ -17,7 +15,6 @@
 }
 
 .EditSaveButton{
-    /*margin-right: 75px;*/
     min-width: 100px;
     max-width: 150px;
     background-color: deeppink;
@@ -26,11 +23,9 @@
     max-height: 50px;
 }
 
-
-
 .PostContent{
-    /*margin: 10px 75px 10px 75px;*/
     text-align: justify;
+    font-size: 12px;
 }
 
 .ModalHeader{
@@ -56,4 +51,43 @@
 
 #likeCount{
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#CommentBtn{
+    background-color: deeppink;
+    min-width: 100px;
+    max-width: 150px;
+    max-height: 50px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#AllCommentTxt{
+    font-size: larger;
+}
+
+#AllComments{
+    padding:10px 20px 5px 20px;
+    background-color: lightgrey;
+    width: 60%;
+}
+
+.Comment{
+    display: block;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+.CommentText{
+    margin: 0px;
+    padding: 11px 0px 11px 5px;
+}
+
+#NewComment{
+    width: 60%;
+    height: 100px;
 }

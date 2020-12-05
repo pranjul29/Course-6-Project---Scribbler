@@ -9,8 +9,6 @@ function EditToSaveToggle(){
     var BlogBody = document.getElementById("BlogBody");
     BlogHeading.contentEditable = "true";
     BlogBody.contentEditable = "true";
-    BlogBody.focus();
-    BlogHeading.focus();
     BlogHeading.style.border = "solid";
     BlogBody.style.border = "solid";
     BlogHeading.style.borderColor = "pink";
@@ -47,4 +45,12 @@ function LikeClicked(){
             document.getElementById('likeCount').innerHTML = numberOfClicks + " people like this!";
         }
     }
+}
+
+function addComments(NewComment){
+    var a = document.getElementById('NewComment');
+    document.getElementById('AllComments').innerHTML += '<div class = "Comment">' +
+        '<p class="CommentText">'+NewComment.value+'</p>' +
+    '</div>';
+    a.value=a.defaultValue;
 }
