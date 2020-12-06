@@ -3,7 +3,7 @@ var posts = [
         id: 1,
         postOwner: "Srishti Gupta",
         postHeading: "‘let’ me be a ‘const’(ant), not a ‘var’(iable)!",
-        postContent: "Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same" /*purpose, they are different."*/
+        postContent: "Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different."
     },
     {
         id: 2,
@@ -15,19 +15,19 @@ var posts = [
         id: 3,
         postOwner: "Yazeed Bzadough",
         postHeading: "How to Get More Views on Your Tech Blog",
-        postContent: "If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable"/* name in the industry."*/
+        postContent: "If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in the industry."
     },
     {
         id: 4,
         postOwner: "Cedd Burge",
         postHeading: "How to write easily describable code",
-        postContent: "When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will"/* map to different words, which leads to confusion when discussing the code."*/
+        postContent: "When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will map to different words, which leads to confusion when discussing the code."
     },
     {
         id: 5,
         postOwner: "Srishti Gupta",
         postHeading: "Everything you should know about ‘module’ & ‘require’ in Node.js",
-        postContent: "Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve"/* created a module named xyz."*/
+        postContent: "Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module named xyz."
     }
 ]
 
