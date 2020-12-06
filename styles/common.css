@@ -1,21 +1,22 @@
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#TitleText{
+#TitleText {
     font-family: 'Montez', cursive;
     margin: 0px 0px 2px 0px;
     color: blue;
 }
-#SubHeadingText{
+
+#SubHeadingText {
     font-family: 'Ubuntu Mono';
     color: rebeccapurple;
 }
 
-#SignUpBtn,#SignInBtn{
+#SignUpBtn, #SignInBtn {
     background-color: blue;
     color: white;
     margin: 3px 2px 0px 2px;
@@ -25,8 +26,7 @@ header{
 }
 
 
-
-#SignInPageToggle{
+#SignInPageToggle {
     margin-top: 15px;
     margin-bottom: 0px;
     text-align: center;

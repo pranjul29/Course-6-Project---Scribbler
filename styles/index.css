@@ -1,19 +1,22 @@
 
-html{
+html {
     height: 100%;
-    width:100%
+    width: 100%
 }
+
 body {
     display: block;
     height: 100%;
 }
-.Main-Container{
+
+.Main-Container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 100%;
     width: 100%;
 }
+
 .HomePageBtn {
     display: flex;
     height: 100%;
@@ -21,7 +24,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-#AllPostBtn,#CreatePostBtn{
+
+#AllPostBtn, #CreatePostBtn {
     margin: 2px;
     background-color: orange;
     color: black;
@@ -30,18 +34,18 @@ body {
     height: 35px;
 }
 
-body{
+body {
     background: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
     margin: 0;
-    overflow:hidden;
+    overflow: hidden;
     display: block;
 }
 
-.ModalHeader{
+.ModalHeader {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,11 +53,11 @@ body{
     margin-bottom: 0px;
 }
 
-#PostContents{
-    height:400px;
+#PostContents {
+    height: 400px;
 }
 
-#ModalCreatePostBtn{
+#ModalCreatePostBtn {
     width: 175px;
 }
 

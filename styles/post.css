@@ -1,20 +1,20 @@
-#BlogHeading{
+#BlogHeading {
     text-align: center;
     font-weight: bold;
 }
 
-#BlogAuthor{
+#BlogAuthor {
     font-family: 'Niconne', cursive;
     font-size: 30px;
 }
 
-.PostAuthor{
+.PostAuthor {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.EditSaveButton{
+.EditSaveButton {
     min-width: 100px;
     max-width: 150px;
     background-color: deeppink;
@@ -23,12 +23,12 @@
     max-height: 50px;
 }
 
-.PostContent{
+.PostContent {
     text-align: justify;
     font-size: 12px;
 }
 
-.ModalHeader{
+.ModalHeader {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,12 +36,12 @@
     margin-bottom: 0px;
 }
 
-.PostBlogLayout{
+.PostBlogLayout {
     margin-right: 75px;
     margin-left: 75px;
 }
 
-#likeBlog{
+#likeBlog {
     background-color: deeppink;
     min-width: 100px;
     max-width: 150px;
@@ -49,12 +49,12 @@
     color: white;
 }
 
-#likeCount{
+#likeCount {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-#CommentBtn{
+#CommentBtn {
     background-color: deeppink;
     min-width: 100px;
     max-width: 150px;
@@ -64,17 +64,17 @@
     margin-top: 10px;
 }
 
-#AllCommentTxt{
+#AllCommentTxt {
     font-size: larger;
 }
 
-#AllComments{
-    padding:10px 20px 5px 20px;
+#AllComments {
+    padding: 10px 20px 5px 20px;
     background-color: lightgrey;
     width: 60%;
 }
 
-.Comment{
+.Comment {
     display: block;
     background-color: white;
     padding: 5px;
@@ -82,12 +82,12 @@
     height: 60px;
 }
 
-.CommentText{
+.CommentText {
     margin: 0px;
     padding: 11px 0px 11px 5px;
 }
 
-#NewComment{
+#NewComment {
     width: 60%;
     height: 100px;
 }

@@ -1,4 +1,4 @@
-function EditToSaveToggle(){
+function EditToSaveToggle() {
     var template_save = '<p id="BlogAuthor">Srishti Gupta</p>' +
         '<button id="SaveBtn" class="EditSaveButton" onclick="SaveToEditToggle()">Save ' +
         '<i class="fa fa-save"></i>' +
@@ -17,7 +17,7 @@ function EditToSaveToggle(){
 
 }
 
-function SaveToEditToggle(){
+function SaveToEditToggle() {
     var template_edit = '<p id="BlogAuthor">Srishti Gupta</p>' +
         '<button id="EditBtn" class="EditSaveButton" onclick="EditToSaveToggle()">Edit ' +
         '<i class="fa fa-edit"></i>' +
@@ -32,25 +32,26 @@ function SaveToEditToggle(){
     BlogBody.style.border = "none";
 }
 
-var numberOfClicks=0;
-function LikeClicked(){
+var numberOfClicks = 0;
+
+function LikeClicked() {
     console.log(numberOfClicks)
-    document.getElementById("likeBlog").innerHTML = '<i style="font-size: 14px;font-weight: bolder;" class="fa fa-thumbs-up" aria-hidden="true"></i> Liked';
+    document.getElementById("likeBlog").innerHTML = '<i style="font-size: 14px;font-weight: bolder;" class="fa fa-thumbs-up" aria-hidden="true"></i> Liked!';
     numberOfClicks += 1;
-    if(numberOfClicks!=0){
-        if (numberOfClicks==1){
+    if (numberOfClicks != 0) {
+        if (numberOfClicks == 1) {
             document.getElementById('likeCount').innerHTML = numberOfClicks + " person likes this!";
-        }
-        else {
+        } else {
             document.getElementById('likeCount').innerHTML = numberOfClicks + " people like this!";
         }
     }
 }
 
-function addComments(NewComment){
+function addComments(NewComment) {
     var a = document.getElementById('NewComment');
-    document.getElementById('AllComments').innerHTML += '<div class = "Comment">' +
-        '<p class="CommentText">'+NewComment.value+'</p>' +
-    '</div>';
-    a.value=a.defaultValue;
+    var allComments = document.getElementById('AllComments');
+    allComments.innerHTML = '<div class = "Comment">' +
+        '<p class="CommentText">' + NewComment.value + '</p>' +
+        '</div>' + allComments.innerHTML;
+    a.value = a.defaultValue;
 }
