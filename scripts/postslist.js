@@ -32,7 +32,6 @@ var posts = [
 ]
 
 function displayAllPosts() {
-    console.log(posts);
     var PostGrid = document.getElementById("PostListGrid");
     PostGrid.innerHTML = "";
     posts.forEach(function (value, index) {
@@ -71,33 +70,6 @@ function displayAllPosts() {
 
 displayAllPosts()
 
-/*var trashFunctions = function(numberOfPosts) {
-
-    for (var i = 0; i < numberOfPosts; i++) {
-        // Get the trash modal
-        var modal = document.getElementsByClassName("trash-modal")[i];
-        var modal = document.getElementById("TrashModal"+i);
-        // Get the div that opens the modal
-        var div = document.getElementsByClassName("post-trash")[i];
-        var div = document.getElementById("post-trash"+i);
-        // Get the <span> element that closes the modal
-        var close = document.getElementsByClassName("trash-modal-button-no")[i];
-        var close = document.getElementById("trash-modal-button-no"+i);
-
-        // When the user clicks on the trash icon, open the modal
-        div.onclick = function() {
-            modal.style.display = "block";
-        }
-
-        // When the user clicks on `No` button, close the modal
-        close.onclick = function() {
-            modal.style.display = "none";
-        }
-    }
-}
-
-trashFunctions(5)*/
-
 function OpenModal(index) {
     var modal = document.getElementById("TrashModal" + index);
     modal.style.display = "block";
@@ -109,8 +81,6 @@ function CloseModal(index) {
 }
 
 function DeletePost(index, id) {
-    console.log(index);
-    console.log(id);
     var modal = document.getElementsByClassName("trash-modal")[index];
     modal.style.display = "none";
     posts.splice(index, 1);

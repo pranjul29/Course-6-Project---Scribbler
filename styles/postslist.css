@@ -133,7 +133,7 @@ body {
     padding-bottom: 5px;
 }
 
-.card-text{
+.card-text {
     overflow: hidden;
     /*text-overflow: ellipsis;*/
     display: -webkit-box;
